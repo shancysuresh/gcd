@@ -2,7 +2,7 @@
 Find gcd of 2 numbers
 def gcd(m,n):
 if (m<n): # Assume m>=n
-  (m,n)=(n.m)
+  (m,n)=(n,m)
 if(m%n)==0:
   return(n)
 else:
